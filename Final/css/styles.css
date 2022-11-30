@@ -1,0 +1,35 @@
+#navbar{
+
+    background-color: #dea3b5;
+
+}
+
+.logo{
+
+width: 25%;
+border-radius: 35%;
+}
+
+#brand_name{
+
+    padding-top: 30px !important;
+}
+
+#collapsingNavbar3{
+
+    padding-top: 10px !important;
+}
+.btn{
+
+    color: #B97A57 !important;
+    background-color: #4e5e3a !important;
+   
+}
+
+.thumbnail{
+
+    width: 85%;
+  
+}
+
+
