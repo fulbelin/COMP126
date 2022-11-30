@@ -19,7 +19,7 @@ border-radius: 35%;
 
     padding-top: 10px !important;
 }
-.btn{
+#button{
 
     color: #B97A57 !important;
     background-color: #4e5e3a !important;
@@ -31,5 +31,12 @@ border-radius: 35%;
     width: 85%;
   
 }
+
+.card{
+    margin: 20px !important;
+width: 50% !important;
+}
+
+
 
 
