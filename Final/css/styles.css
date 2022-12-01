@@ -4,6 +4,9 @@
 
 }
 
+
+
+
 .logo{
 
 width: 25%;
@@ -26,6 +29,12 @@ border-radius: 35%;
    
 }
 
+#button:hover {
+    background-color:#B97A57 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+
 .thumbnail{
 
     width: 85%;
@@ -35,8 +44,43 @@ border-radius: 35%;
 .card{
     margin: 20px !important;
 width: 50% !important;
+
 }
 
+#cardgroup{
 
+    background-color: #B97A57 !important;
+}
 
+#cardeck{
+
+    width: 80% !important;
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 10% !important;
+    border-color: #dea3b5 !important;
+   background-color: #dea3b5 !important;
+   margin-top: 10px !important;
+   border-radius: 1%;
+}
+
+#cardbutton{
+
+    color: #B97A57 !important;
+    background-color: #4e5e3a !important;
+    display: flex;
+    align-self: center !important;
+border: #4e5e3a !important;
+}
+
+.card-body{
+
+    background-color: #B97A57 !important;
+
+}
+
+.wrapper{
+
+    background-color: beige !important;
+}
 
