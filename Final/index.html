@@ -2,189 +2,339 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elysian Candles</title>
-    <script src="https://kit.fontawesome.com/fb641a1906.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="C:\Users\HP\Desktop\comp126\Final\css\styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-        @font-face {
-            font-family: Cali;
-            src: url('Californian FB Regular.ttf');
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elysian Candles</title>
+  <script src="https://kit.fontawesome.com/fb641a1906.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="C:\Users\HP\Desktop\comp126\Final\css\styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-        @font-face {
-            font-family: Elephant;
-            src: url('Elephant FB Regular.ttf');
-        }
+  <style>
+    @font-face {
+      font-family: Cali;
+      src: url('Californian FB Regular.ttf');
+    }
+
+    @font-face {
+      font-family: Elephant;
+      src: url('Elephant FB Regular.ttf');
+    }
 
 
-        .navbar{
+    .navbar {
 
-          font-family: Elephant;
-        }
+      font-family: Elephant;
+    }
 
-        #header{
+    #header {
 
-          font-family: Cali;
-        }
-    </style>
+      font-family: Cali;
+    }
+  </style>
 </head>
 
 
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-md bg-faded" id="navbar">
-        <div class="container-fluid">
-            <div class="navbar-brand d-flex justify-content-start mb-1">
+  <nav class="navbar navbar-light navbar-expand-md bg-faded" id="navbar">
+    <div class="container-fluid">
+      <div class="navbar-brand d-flex justify-content-start mb-1">
 
-              <img class="logo" src="C:\Users\HP\Desktop\comp126\Final\logo.jpg" alt="logo of the webpage">
-             
-              <p class="mt-5 pt-4 ms-5 fs-3" id="brand_name">Elysian Candles</p>
-            </div>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-                <span class="navbar-toggler-icon"></span>
-               
-            </button>
-            <div class="navbar-collapse collapse ms-auto w-100" id="collapsingNavbar3">
-              
-                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a href="#" class="btn btn-lg ms-2 my-1" id="button">Home</a>
+        <img class="logo" src="C:\Users\HP\Desktop\comp126\Final\logo.jpg" alt="logo of the webpage">
 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="btn btn-lg  ms-2 my-1" id="button">Products</a>
+        <p class="mt-5 pt-4 ms-5 fs-3" id="brand_name">Elysian Candles</p>
+      </div>
 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="btn btn-lg ms-2 my-1" id="button">Commissions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
 
-                    </li>
+      </button>
+      <div class="navbar-collapse collapse ms-auto w-100" id="collapsingNavbar3">
+
+        <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="btn btn-lg ms-2 my-1" id="button">Home</a>
+
+          </li>
+          <li class="nav-item">
+            <a href="#" class="btn btn-lg  ms-2 my-1" id="button">Payment</a>
+
+          </li>
+          <li class="nav-item">
+            <a href="#" class="btn btn-lg ms-2 my-1" id="button">Contact</a>
+
+          </li>
 
 
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-   
-    <div class="pt-3 d-flex justify-content-center bd-highlight">
-      <img class="thumbnail" src="https://as1.ftcdn.net/v2/jpg/03/73/03/60/1000_F_373036095_plfn4NlXboFOl3l9d0JLCWWC8Px27R0m.jpg" alt="a discount banner" id="thumbnail">
+        </ul>
+      </div>
     </div>
+  </nav>
+
+<div class="wrapper">
 
 
-      <div class="text-lg-center pt-3" id="header">
-        <h1>TOP SELLERS</h1>
+
+  <div class="pt-3 d-flex justify-content-center bd-highlight">
+    <img class="thumbnail"
+      src="https://as1.ftcdn.net/v2/jpg/03/73/03/60/1000_F_373036095_plfn4NlXboFOl3l9d0JLCWWC8Px27R0m.jpg"
+      alt="a discount banner" id="thumbnail">
+  </div>
+
+
+  <div class="text-lg-center pt-3" id="header">
+    <h1>TOP SELLERS</h1>
+  </div>
+
+  <div class="card-group" id="cardgroup">
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1646564423982-307896f7ab75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+        class="card-img-top" alt="card-group-image">
+    </div>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1638500986608-5a2bcd8951cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+        class="card-img-top" alt="card-group-image">
+    </div>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1646562292875-b5bfa8c00e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+        class="card-img-top" alt="card-group-image">
+    </div>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1638500986609-ebb0d38f6cb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTU1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+        class="card-img-top" alt="card-group-image">
+    </div>
+  </div>
+
+
+
+
+  <div class="text-lg-center pt-3" id="header">
+    <h1>PRODUCTS</h1>
+  </div>
+
+  <div class="card-deck border border-5" id="cardeck">
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1646564423982-307896f7ab75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Candle of Love</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
       </div>
-      
-      <div class="card-group">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1646564423982-307896f7ab75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="card-img-top" alt="card-group-image">
-        </div>
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1638500986608-5a2bcd8951cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="card-img-top" alt="card-group-image">
-        </div>
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1646562292875-b5bfa8c00e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="card-img-top" alt="card-group-image">
-        </div>
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1646562292862-8f925ef16424?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGNhbmRsZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60" class="card-img-top" alt="card-group-image">
-        </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1608181831688-b2a476cb100c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Vanilla Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
       </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1608181831688-b2a476cb100c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Vanilla Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+  </div>
 
-     
-     
-   
+  <div class="card-deck border border-5" id="cardeck">
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1638500986609-ebb0d38f6cb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhbmRsZSUyMHNjZW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Melon Candle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1640506054499-2b040ca19023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEwfHxjYW5kbGUlMjBzY2VudHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cake Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1608181831688-b2a476cb100c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Vanilla Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+  </div>
 
-      
+  <div class="card-deck border border-5" id="cardeck">
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1669650781437-edda93228909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI0fHxjYW5kbGUlMjBzY2VudHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Candle Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1646562292815-0b3629f2ca4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGNhbmRsZSUyMHNjZW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=600&q=600" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Lemon Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1608181831688-b2a476cb100c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Vanilla Candle</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-primary bottom ms-auto" id="cardbutton" type="submit">Add to chart</button>
+      </div>
+    </div>
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+  <div class="text-lg-center pt-3" id="header">
+    <h1>COMMISSIONS</h1>
+  </div>
 
 
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                   
-            CONTACT US
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+      <table class="table table-image">
+        <thead>
+          <tr>
+            <th scope="col">Candle</th>
+            <th scope="col">Price</th>
+            <th scope="col">Ingredients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           
+            <td class="w-25">
+              <img src="https://images.unsplash.com/photo-1608181831688-b2a476cb100c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuZGxlJTIwc2NlbnR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" class="img-fluid img-thumbnail" alt="Sheep">
+              <p>Vanilla Candle</p>
+            </td>
+            
+            <td>8.75$</td>
+            <td>Vanilla</td>
+            
+          </tr>
+          <tr>
+            
+            <td class="w-25">
+              <img src="https://images.unsplash.com/photo-1646562292815-0b3629f2ca4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGNhbmRsZSUyMHNjZW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=600&q=600" class="img-fluid img-thumbnail" alt="Sheep">
+              <p>Pine tree Candle</p>
+            </td>
+            <td>10.65$</td>
+            <td>Pine Tree, Aloa vera</td>
+           
+          </tr>
 
-        <footer class="text-center text-white" style="background-color: #f1f1f1;">
-            <!-- Grid container -->
-            <div class="container pt-4">
+          <tr>
+           
+            <td class="w-25">
+              <img src="https://images.unsplash.com/photo-1640506054499-2b040ca19023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEwfHxjYW5kbGUlMjBzY2VudHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60" class="img-fluid img-thumbnail" alt="Sheep">
+              <p>Cake Candle</p>
+            </td>
+            <td>12.45$</td>
+            <td>Honey</td>
+           
+          </tr>
 
-                
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                <!-- Facebook -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
+          <tr>
+           
+            <td class="w-25">
+              <img src="https://images.unsplash.com/photo-1638500986608-5a2bcd8951cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-fluid img-thumbnail" alt="Sheep">
+              <p>Love Candle</p>
+            </td>
+            
+            <td>7.45$</td>
+            <td>Love</td>
+           
+          </tr>
+
+          <tr>
           
-                <!-- Twitter -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-          
-                <!-- Google -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-google"></i
-                ></a>
-          
-                <!-- Instagram -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-          
-                <!-- Linkedin -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <!-- Github -->
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </section>
-              <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
-          
-            <!-- Copyright -->
-            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2020 Copyright:
-              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
-          </footer>
+            <td class="w-25">
+              <img src="https://images.unsplash.com/photo-1638500986609-ebb0d38f6cb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTU1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60" class="img-fluid img-thumbnail" alt="Sheep">
+              <p>Lemon Candle</p>
+            </td>
+           
+            <td>5.80$</td>
+            <td>Lemon</td>
+           
+          </tr>
+        </tbody>
+      </table>   
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+  </div>
+
+
+
+  
+
+  <footer class="text-center text-white" style="background-color: beige; ">
+    <!-- Grid container -->
+    <div class="container pt-4">
+
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <div class="text-center text-dark p-3" style="background-color:#dea3b5;font-family: Elephant;">
+
+          CONTACT US
+        </div>
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" style="background-color:#dea3b5;"href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1"style="background-color:#dea3b5;" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" style="background-color:#dea3b5;"href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1"style="background-color:#dea3b5;" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" style="background-color:#dea3b5;"href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" style="background-color:#dea3b5;"href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: #4e5e3a;font-family: Elephant;">
+      © 2022 
+      <a class="text-dark" href="#">ElysianCandles.com</a>
+    </div>
+  </footer>
 </body>
 
 </html>
