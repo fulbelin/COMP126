@@ -33,7 +33,11 @@ border-radius: 35%;
   color: #4e5e3a !important;
   transition: 0.4s;
 }
-
+#buttonA:focus {
+  background-color:#B97A57 !important;
+  color: beige !important;
+  transition: 0.4s;
+}
 *
 {
   box-sizing:border-box;
@@ -111,7 +115,7 @@ grid-row: 3/4;
   buttonone:hover,
   buttonone:focus {
     background-color: #283628;
-    color: white;
+    color: beige;
   }
 
 .box2 {
@@ -180,6 +184,7 @@ grid-row: 3/4;
   button:focus {
     background-position: right center;
     transition: 0.5s;
+    color: beige;
 
   }
   
