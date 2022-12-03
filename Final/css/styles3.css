@@ -24,19 +24,55 @@ border-radius: 35%;
 }
 #button{
 
-    color: #B97A57 !important;
+    color: #E4C9D4 !important;
     background-color: #4e5e3a !important;
    
 }
 
 #button:hover {
-    background-color:#B97A57 !important;
+    background-color:#E4C9D4 !important;
     color: #4e5e3a !important;
     transition: 0.4s;
 }
 #button:focus {
-    background-color:#B97A57 !important;
-    color: beige !important;
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+
+#button1{
+
+    color: #E4C9D4 !important;
+    background-color: #4e5e3a !important;
+   
+}
+
+#button1:hover {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+#button1:focus {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+
+#button2{
+
+    color: #E4C9D4 !important;
+    background-color: #4e5e3a !important;
+   
+}
+
+#button2:hover {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+#button2:focus {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
     transition: 0.4s;
 }
 
@@ -56,7 +92,7 @@ border-radius: 35%;
     display: flex;
     justify-content: center;
     margin-bottom: 2px;
-    color: #b97a57;
+    color: #E4C9D4;
     background-color: #4e5e3a;
     height: 100px;
     font-size: xxx-large;
@@ -74,7 +110,7 @@ border-radius: 35%;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 2px;
-    color: #b97a57;
+    color: #E4C9D4;
     background-color: #4e5e3a;
     height: 100px;
     font-size: xxx-large;
@@ -255,7 +291,23 @@ border-radius: 35%;
     padding-bottom: 15px;
 }
 
+#lalidabutton2{
 
+    color: #E4C9D4 !important;
+    background-color: #4e5e3a !important;
+   
+}
+
+#lalidabutton2:hover {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+#lalidabutton2:focus {
+    background-color:#E4C9D4 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
 
 @media screen and (max-width: 918px) {
     .two{
