@@ -1,0 +1,225 @@
+#navbar{
+
+    background-color: #dea3b5;
+
+}
+
+
+
+
+.logo{
+
+width: 25%;
+border-radius: 35%;
+}
+
+#brand_name{
+
+    padding-top: 30px !important;
+}
+
+#collapsingNavbar3{
+
+    padding-top: 10px !important;
+}
+#button{
+
+    color: #B97A57 !important;
+    background-color: #4e5e3a !important;
+   
+}
+
+#button:hover {
+    background-color:#B97A57 !important;
+    color: #4e5e3a !important;
+    transition: 0.4s;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh;
+}
+.box{
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+.header1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    color: #b97a57;
+    background-color: #4e5e3a;
+    height: 100px;
+    font-size: xxx-large;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    padding-top: 10px;
+}
+.headerstudentmade{
+
+    color: #283628;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    color: #b97a57;
+    background-color: #4e5e3a;
+    height: 100px;
+    font-size: xxx-large;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    padding-top: 10px;
+}
+
+.one{
+    padding-bottom: 15px;
+}
+
+.two{
+    color: #283628;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    font-size:x-large;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 15px;
+}
+
+.three{
+    color: #283628;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    font-size:x-large;
+    text-align: center;
+    justify-items: center;
+}
+
+.first{
+    padding-bottom: 15px;
+}
+
+.second{
+    color: #283628;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    font-size:x-large;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 15px;
+}
+
+.third{
+    color: #283628;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    font-size:x-large;
+    text-align: center;
+    justify-items: center;
+}
+
+.fourth{
+    padding-top: 15px;
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    max-height: 407px;
+    margin-bottom: 10px;
+    min-height: 400px
+}
+
+.picture{
+    object-fit: cover;
+    width: 100%;
+    max-height: 407px;
+    margin-bottom: 10px;
+    min-height: 400px
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh;
+}
+
+.uncpic{
+    object-fit: cover;
+    width:100%;
+    max-height: 407px;
+    min-height: 400px;
+    margin-bottom: 10px;
+}
+
+.wilsonpic{
+    object-fit: cover;
+    width: 100%;
+    max-height: 407px;
+    margin-bottom: 10px;
+    min-height: 400px
+}
+
+
+
+
+
+.aboutlalida{
+    height: 100vh;
+    width: 100%;
+    margin-top: 80px !important;
+  
+   
+}
+
+.lalidaimage{
+    justify-content: left;
+    width: 580px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+
+.all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+    src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
+}
+
+.studentmade {width: 100vw;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.footer{
+
+    height: 30px !important;
+    width: 100% !important;
+  }
+
+.all-text h1{
+    font-size: 65px;
+    color: #283628;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-text p{
+    font-size: 16px;
+    color: #283628;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
