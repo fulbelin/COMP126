@@ -1,7 +1,7 @@
 #navbar{
 
-  background-color: #dea3b5;
-
+    background-color: #dea3b5;
+   
   width: 100%;
  
 }
@@ -23,19 +23,19 @@ border-radius: 35%;
 }
 #buttonA{
 
-  color: #B97A57 !important;
+  color: #E4C9D4 !important;
   background-color: #4e5e3a !important;
  
 }
 
 #buttonA:hover {
-  background-color:#B97A57 !important;
+  background-color:#E4C9D4 !important;
   color: #4e5e3a !important;
   transition: 0.4s;
 }
 #buttonA:focus {
-  background-color:#B97A57 !important;
-  color: beige !important;
+  background-color:#4e5e3a !important;
+  color: #E4C9D4 !important;
   transition: 0.4s;
 }
 *
@@ -48,7 +48,7 @@ border-radius: 35%;
   display: flex;
   justify-content: center;
   margin-bottom: 2px;
-  color: #b97a57;
+  color: #E4C9D4;
   background-color: #4e5e3a;
   height: 100px;
   font-size: xxx-large;
@@ -62,7 +62,7 @@ border-radius: 35%;
   display: flex;
   justify-content: center;
   margin-bottom: 2px;
-  color: #b97a57;
+  color: #E4C9D4;
   background-color: #4e5e3a;
   height: 100px;
   font-size: xxx-large;
@@ -85,7 +85,7 @@ border-radius: 35%;
 display: grid;
 grid-column: 1/3;
 grid-row: 3/4;
-  background-color: #283628;
+  background-color: #4e5e3a;
 }
 .grid3 {
     display: grid;
@@ -98,8 +98,8 @@ grid-row: 3/4;
   
   buttonone {
     padding: 0px 0px 0px 0px;
-    color: #fff;
-    background-color: #86b387;
+    color: #E4C9D4;
+    background-color: #4e5e3a;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -114,8 +114,8 @@ grid-row: 3/4;
   
   buttonone:hover,
   buttonone:focus {
-    background-color: #283628;
-    color: beige;
+    background-color: #E4C9D4;
+    color: #4e5e3a;
   }
 
 .box2 {
@@ -168,8 +168,8 @@ grid-row: 3/4;
     src:url('Californian FB Regular.ttf');
   font-family: Cali !important;
     font-size: 18px;
-    color: white;
-    background-image: linear-gradient(90deg, #86b387 20% 20%, #4e5e3a 50% 100%);
+    color: #E4C9D4;
+    background-image: linear-gradient(90deg, #283628 20% 20%, #4e5e3a 50% 100%);
     background-size: 200% auto;
     text-align: center;
     font-style: normal;
@@ -184,7 +184,8 @@ grid-row: 3/4;
   button:focus {
     background-position: right center;
     transition: 0.5s;
-    color: beige;
+    color: #E4C9D4;
+    background-color: #4e5e3a;
 
   }
   
