@@ -34,6 +34,11 @@ border-radius: 35%;
     color: #4e5e3a !important;
     transition: 0.4s;
 }
+#button:focus {
+    background-color:#B97A57 !important;
+    color: beige !important;
+    transition: 0.4s;
+}
 
 .grid-layout {
     display: grid;
@@ -223,3 +228,79 @@ border-radius: 35%;
     line-height: 30px;
     margin-bottom: 35px;
 }
+
+
+
+.layout2{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70vh 50vh;
+}
+
+.diy{
+    object-fit: cover;
+    width: 100%;
+    max-height: 407px;
+    margin-bottom: 10px;
+    min-height: 400px
+}
+
+.secondary{
+    color: #283628;
+    font-family: cali;
+    src: url('Californian FB Regular.ttf');
+    font-size:xx-large;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 15px;
+}
+
+
+
+@media screen and (max-width: 918px) {
+    .two{
+        font-size: 20px;
+    }
+    .three{
+        font-size: 20px;
+    }
+    .second{
+        font-size: 20px;
+    }
+    .third{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 646px) {
+    .two{
+        font-size: 18px;
+    }
+    .three{
+        font-size: 18px;
+    }
+    .second{
+        font-size: 18px;
+    }
+    .third{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .two{
+        font-size: 16px;
+    }
+    .three{
+        font-size: 16px;
+    }
+    .second{
+        font-size: 16px;
+    }
+    .third{
+        font-size: 16px;
+    }
+}
+
+
