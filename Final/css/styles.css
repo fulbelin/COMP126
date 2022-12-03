@@ -51,6 +51,42 @@ border-radius: 35%;
   transition: 0.4s;
 }
 
+#button1{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+ 
+}
+
+#button1:hover {
+  background-color:#E4C9D4 !important;
+  color: #4e5e3a !important;
+  transition: 0.4s;
+}
+#button1:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#button2{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+ 
+}
+
+#button2:hover {
+  background-color:#E4C9D4 !important;
+  color: #4e5e3a !important;
+  transition: 0.4s;
+}
+#button2:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
 .thumbnail{
 
     width: 85%;
@@ -80,7 +116,7 @@ width: 50% !important;
    border-radius: 1%;
 }
 
-#cardbutton{
+#cardbutton1{
 
     color: #E4C9D4 !important;
     background-color: #4e5e3a !important;
@@ -91,17 +127,203 @@ font-family: Cali;
 
 }
 
-#cardbutton:hover {
+#cardbutton1:hover {
   background-color:#E4C9D4 !important;
   color: #4e5e3a !important;
   transition: 0.4s;
 }
 
-#cardbutton:focus {
+#cardbutton1:focus {
   background: #E4C9D4;
   color: #4e5e3a;
   transition: 0.4s;
 }
+
+#cardbutton2{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton2:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton2:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton3{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton3:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton3:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton4{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton4:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton4:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton5{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton5:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton5:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton6{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton6:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton6:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton7{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton7:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton7:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton8{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton8:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton8:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+#cardbutton9{
+
+  color: #E4C9D4 !important;
+  background-color: #4e5e3a !important;
+  display: flex;
+  align-self: center !important;
+border: #4e5e3a !important;
+font-family: Cali;
+
+}
+
+#cardbutton9:hover {
+background-color:#E4C9D4 !important;
+color: #4e5e3a !important;
+transition: 0.4s;
+}
+
+#cardbutton9:focus {
+background: #E4C9D4;
+color: #4e5e3a;
+transition: 0.4s;
+}
+
+
 
 
 .card-body{
