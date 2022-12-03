@@ -494,7 +494,7 @@ ul {list-style-type: none;}
   .days li .active {padding: 2px;}
   .card{width:70%;}
   .container{width:70% !important;}
-  .card-text{font-size:60% !important;}
+  .card-text{font-size:45% !important;}
   #cardeck{height:40% !important;}
 }
 
@@ -502,7 +502,7 @@ ul {list-style-type: none;}
   .weekdays li, .days li {width: 12.2%;}
   .card{width:50% !important;}
   .container{width:50% !important;}
-  .card-text{font-size:50% !important;}
+  .card-text{font-size:35% !important;}
   #cardeck{height:30% !important;}
 }
 
