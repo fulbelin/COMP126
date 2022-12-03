@@ -35,19 +35,19 @@ border-radius: 35%;
 }
 #button{
 
-    color: #B97A57 !important;
+    color: #E4C9D4 !important;
     background-color: #4e5e3a !important;
    
 }
 
 #button:hover {
-    background-color:#B97A57 !important;
+    background-color:#E4C9D4 !important;
     color: #4e5e3a !important;
     transition: 0.4s;
 }
 #button:focus {
-  background-color:#B97A57 !important;
-  color: beige !important;
+  background: #E4C9D4;
+  color: #4e5e3a;
   transition: 0.4s;
 }
 
@@ -82,7 +82,7 @@ width: 50% !important;
 
 #cardbutton{
 
-    color: #B97A57 !important;
+    color: #E4C9D4 !important;
     background-color: #4e5e3a !important;
     display: flex;
     align-self: center !important;
@@ -92,14 +92,14 @@ font-family: Cali;
 }
 
 #cardbutton:hover {
-  background-color:#B97A57 !important;
+  background-color:#E4C9D4 !important;
   color: #4e5e3a !important;
   transition: 0.4s;
 }
 
 #cardbutton:focus {
-  background-color:#B97A57 !important;
-  color: beige !important;
+  background: #E4C9D4;
+  color: #4e5e3a;
   transition: 0.4s;
 }
 
@@ -118,7 +118,7 @@ font-family: Cali;
 #commissions{
 
   margin-top: 50px !important;
-  color: #283628;
+  color: #4e5e3a;
 }
 
 .footer{
@@ -132,7 +132,7 @@ font-family: Cali;
 }
 .table{
  
-  border: #283628 !important;
+  border: #4e5e3a !important;
  
  
 }
@@ -192,7 +192,7 @@ ul {list-style-type: none;}
 .month {
   padding: 40px;
   width: 100%;
-  background-color: #dea3b5;
+  background-color: #E4C9D4;
   text-align: center;
   src:url('Californian FB Regular.ttf');
   font-family: Cali;
@@ -204,7 +204,7 @@ ul {list-style-type: none;}
 }
 
 .month ul li {
-  color: white;
+  color: #4e5e3a;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -233,7 +233,7 @@ ul {list-style-type: none;}
   width: 13.6%;
   text-align: left;
   padding: 10px;
-  color: #283628;
+  color: #4e5e3a;
 }
 
 .days {
@@ -288,7 +288,7 @@ ul {list-style-type: none;}
 
 .bodylalida{
     width: 100%;
-    background: #d1a3b5;
+    background: #E4C9D4;
     display: block;
     align-items: center;
     justify-content: center;
@@ -311,7 +311,7 @@ ul {list-style-type: none;}
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    color: #d1a3b5;
+    color: #E4C9D4;
 }
 
 .content{
@@ -349,18 +349,18 @@ ul {list-style-type: none;}
 
 .left-side .details i{
     font-size: 30px;
-    color: #d1a3b5;
+    color: #E4C9D4;
     margin-bottom: 10px;
 }
 .left-side .details .topic{
     font-size: 18px;
     font-weight: 500;
-    color: #283628;
+    color: #4e5e3a;
 }
 
 .left-side .details .text{
     font-size: 14px;
-    color: #b97a57;
+    color: #E4C9D4;
 }
 .right-side{
     width: 75%;
@@ -369,7 +369,7 @@ ul {list-style-type: none;}
 .right-side .topic-text{
     font-size: 23px;
     font-weight: 600;
-    color: #283628;
+    color: #4e5e3a;
 }
 .right-side .input-box{
     height: 50px;
@@ -399,7 +399,7 @@ ul {list-style-type: none;}
     margin-top: 12px;
 }
 .right-side .button input[type="button"]{
-    color: #b97a57;
+    color: #E4C9D4;
     font-size: 18px;
     outline: none;
     border: none;
@@ -410,12 +410,12 @@ ul {list-style-type: none;}
     transition: all 0.3s ease;
     }
 .button input[type="button"]:hover{
-    background: #b97a57;
+    background: #E4C9D4;
     color: #4e5e3a;
 }
 .button input[type="button"]:focus{
-  background: #b97a57;
-  color: beige;
+  background: #E4C9D4;
+  color: #4e5e3a;
 }
 
 
