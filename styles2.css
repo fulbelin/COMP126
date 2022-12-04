@@ -109,7 +109,7 @@ border-radius: 35%;
  color: #E4C9D4;
   display: flex; 
   justify-content: center;
-    padding-top:30px;
+    padding-top:60px;
 }
 
 .grid2 {
@@ -374,7 +374,7 @@ buttonone {
     font-family: Cali !important;
         font-size: 70px;
         color: #E4C9D4;
-         padding-top:30px;
+         padding-top:60px;
         display: flex; 
         justify-content: center;
        
@@ -389,7 +389,7 @@ buttonone {
     color: #E4C9D4;
     display: flex; 
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-right: 70px;
   }
 }
