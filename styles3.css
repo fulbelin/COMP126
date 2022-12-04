@@ -269,7 +269,7 @@ border-radius: 35%;
 .layout2{ 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70vh 70vh 20vh;
+    grid-template-rows: 70vh 75vh 20vh;
 }
 
 .diy{
@@ -355,7 +355,7 @@ border-radius: 35%;
     }
     
     .secondary{
-        font-size: 22px;
+        font-size: 21px;
     }
 }
 
