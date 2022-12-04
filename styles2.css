@@ -96,6 +96,8 @@ border-radius: 35%;
   height: auto;
   z-index: -1;
   background-color: #dea3b5;
+    
+    
 }
 .box_one {
   width: auto;
@@ -103,11 +105,14 @@ border-radius: 35%;
 }
 
 .box_one h1 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  font-family: cali;
+  src: url('Californian FB Regular.ttf'); 
   font-size: 0px;
   color: white;
   display: flex; 
   justify-content: center;
+  color: #E4C9D4;
+  background-color: #4e5e3a;  
 }
 
 .grid2 {
@@ -166,7 +171,8 @@ border-radius: 35%;
     margin-top: 20px;
     border-radius: 10px;
     background-color: #e3e3e3;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
     font-size: 18px;
 
   }
@@ -196,10 +202,11 @@ border-radius: 35%;
   
   button {
     padding: 19px 39px 18px 39px;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+   src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
     font-size: 18px;
-    color: white;
-    background-image: linear-gradient(90deg, #86b387 20% 20%, #4e5e3a 50% 100%);
+     color: #E4C9D4;
+     background-image: linear-gradient(90deg, #283628 20% 20%, #4e5e3a 50% 100%);
     background-size: 200% auto;
     text-align: center;
     font-style: normal;
@@ -214,6 +221,9 @@ border-radius: 35%;
   button:focus {
     background-position: right center;
     transition: 0.5s;
+      color: #E4C9D4;
+    background-color: #4e5e3a;
+
 
   }
   
@@ -258,7 +268,9 @@ border-radius: 35%;
   color: #b97a57;
   text-align: center;
   font-size: 15px;
-  font-family: Verdana, sans-serif;
+  font-family: cali;
+  src: url('Californian FB Regular.ttf');
+    
 }
 
 /*FOOTER*/
@@ -343,7 +355,8 @@ body
 
 @media (min-width: 900px) {
     .box_one h1 {
-        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+        src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
         font-size: 70px;
         color: white;
         display: flex; 
@@ -354,7 +367,8 @@ body
 
 @media (max-width: 900px) {
 .box_one h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+   src:url('Californian FB Regular.ttf');
+    font-family: Cali !important; 
     font-size: 50px;
     color: white;
     display: flex; 
@@ -373,7 +387,8 @@ buttonone {
     border-radius: 10px;
     width: 200px;
     transition: all 350ms;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
     margin-left: 20px;
 }
 }
@@ -384,7 +399,8 @@ form {
     margin-top: 20px;
     border-radius: 10px;
     background-color: #e3e3e3;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    src:url('Californian FB Regular.ttf');
+    font-family: Cali !important;
     font-size: 15px;
 }
 }
