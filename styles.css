@@ -104,7 +104,30 @@ width: 50% !important;
     background-color: #B97A57 !important;
 }
 
-#cardeck{
+#cardeck1{
+
+   
+    display: flex;
+    flex-direction: row !important;
+   
+    border-color: #dea3b5 !important;
+   background-color: #dea3b5 !important;
+  
+   border-radius: 1%;
+}
+
+#cardeck2{
+
+   
+    display: flex;
+    flex-direction: row !important;
+   
+    border-color: #dea3b5 !important;
+   background-color: #dea3b5 !important;
+  
+   border-radius: 1%;
+}
+#cardeck3{
 
    
     display: flex;
@@ -494,13 +517,24 @@ ul {list-style-type: none;}
   .days li .active {padding: 2px;}
   .card{width:70%  !important; 
     height:70%  !important;
-   display: block;
-    align-items: center;
-    justify-content: center;
   }
   .container{width:70% !important;}
   .card-text{font-size:45% !important;}
-  #cardeck{height:40% !important;}
+  #cardeck1{height:40% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
+   #cardeck2{height:40% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
+   #cardeck3{height:40% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
   
 }
 
@@ -508,7 +542,22 @@ ul {list-style-type: none;}
   .weekdays li, .days li {width: 12.2%;}
   .container{width:50% !important;}
   .card-text{font-size:35% !important;}
-  #cardeck{height:30% !important;}
+ 
+   #cardeck1{height:30% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
+   #cardeck2{height:30% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
+   #cardeck3{height:30% !important;
+  display: block;
+    align-items: center;
+    justify-content: center;
+  }
   .card{
     
     width:70%  !important; 
