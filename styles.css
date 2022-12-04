@@ -492,7 +492,12 @@ ul {list-style-type: none;}
 @media screen and (max-width: 420px) {
   .weekdays li, .days li {width: 12.5%;}
   .days li .active {padding: 2px;}
-  .card{width:70%  !important; height:70%  !important;}
+  .card{width:70%  !important; 
+    height:70%  !important;
+   display: block;
+    align-items: center;
+    justify-content: center;
+  }
   .container{width:70% !important;}
   .card-text{font-size:45% !important;}
   #cardeck{height:40% !important;}
@@ -504,7 +509,13 @@ ul {list-style-type: none;}
   .container{width:50% !important;}
   .card-text{font-size:35% !important;}
   #cardeck{height:30% !important;}
-  .card{width:70%  !important; height:70%  !important;}
+  .card{
+    
+    width:70%  !important; 
+    height:70%  !important; 
+    display: block;
+    align-items: center;
+    justify-content: center;}
 }
 
 
