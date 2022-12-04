@@ -247,8 +247,7 @@ border-radius: 35%;
 }
 .footer{
 
-    height: 30px !important;
-    width: 100% !important;
+    grid-row:3/4;
   }
 
 .all-text h1{
@@ -270,7 +269,7 @@ border-radius: 35%;
 .layout2{ 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70vh 50vh;
+    grid-template-rows: 70vh 70vh 20vh;
 }
 
 .diy{
@@ -285,10 +284,11 @@ border-radius: 35%;
     color: #283628;
     font-family: cali;
     src: url('Californian FB Regular.ttf');
-    font-size:xx-large;
+    font-size:28px;
     text-align: center;
     justify-items: center;
     padding-bottom: 15px;
+    grid-row: 2/3;
 }
 
 #lalidabutton2{
@@ -333,7 +333,7 @@ border-radius: 35%;
         font-size: 18px;
     }
     .second{
-        font-size: 18px;
+        font-size: 23px;
     }
     .third{
         font-size: 18px;
